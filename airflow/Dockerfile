@@ -15,4 +15,5 @@ user airflow
 
 workdir /opt/airflow
 
+copy ./entrypoint.sh /entrypoint.sh
 entrypoint ["/entrypoint.sh"]
